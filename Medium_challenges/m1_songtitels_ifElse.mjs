@@ -12,7 +12,7 @@ console.log('1. ' + artiest1);
 console.log('2. ' + artiest2);
 console.log('3. ' + artiest3);  
 console.log('4. ' + artiest4); 
-let GebruikersKeuze = await userInput.question('Geef je keuze in:');
+let gebruikersKeuze = await userInput.question('Geef je keuze in:');
 
 if(GebruikersKeuze == '4'){
     console.log('Je hebt gekozen voor Morad. Hij is de artiest achter de hit: Pelele');
