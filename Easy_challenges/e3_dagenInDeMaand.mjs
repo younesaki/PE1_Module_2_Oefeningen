@@ -16,7 +16,7 @@ switch(maand){
         console.log('Deze maand heeft 31 dagen.');
         break;
     case 'Februari':
-        console.log('Deze maand heeft 28 dagen in een normaal jaar.');
+        console.log('Deze maand heeft 28 dagen in een normaal jaar en 29 dagen in een shrikkeljaar.');
         break;
     case 'april':
     case 'juni':
@@ -28,3 +28,5 @@ switch(maand){
         console.log('Je hebt geen geldige maand ingegeven.');
         break;
 }
+
+process.exit(); 

@@ -11,7 +11,7 @@ let antwoordTwee = '9' ;
 let vraagDrie = 'Wat is het grootste zoogdier ter wereld?';
 let antwoordDrie = 'Blauwe vinvis' ;
 
-let vraagVier = 'Wie schreef het toneelstuk Romeo en Julia?';
+let vraagVier = "Wie schreef het toneelstuk 'Romeo en Julia'?";
 let antwoordVier = 'Shakespeare' ;
 
 let vraagVijf = 'Hoeveel poten heeft een spin?';

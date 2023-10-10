@@ -9,9 +9,9 @@ const minimum = 0 ;
 let getal = parseFloat(await userInput.question('Geef een getal:'));
 
 if( getal > minimum && getal < maximum){
-    console.log('Je getal ' + getal + ' ligt tussen ' + maximum + ' en ' + minimum + '.');
+    console.log('Het getal ' + getal + ' ligt tussen ' + maximum + ' en ' + minimum + '.');
 }else{
-    console.log('Het ingegeven getal ligt niet tussen het minimum en maximum.');
+    console.log('Het ingegeven getal ligt niet tussen ' + minimum + ' en ' + maximum + '.');
 }
 
 process.exit();
