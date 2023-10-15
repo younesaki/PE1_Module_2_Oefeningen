@@ -10,3 +10,5 @@ if( getal%2 == 0 ){
 }else{
     console.log('oneven');
 }
+
+process.exit();
